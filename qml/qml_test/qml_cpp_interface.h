@@ -28,7 +28,7 @@ public:
 
     Q_INVOKABLE double multiply(double a, double b)
     {
-        return a*b;
+        return m_mathengine->multiply(a, b);
     }
 
 private:
